@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="dataSourceStorageLocal">
+    <data-source name="stumanager@localhost" uuid="846075a9-94b9-43ed-8ce2-24d1310ea134">
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <introspection-schemas>*:stumanager</introspection-schemas>
+    </data-source>
+  </component>
+</project>

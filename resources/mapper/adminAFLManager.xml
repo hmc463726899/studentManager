@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stu.admin.dao.AFLManagerDao">
+
+    <select id="getTotalAFL" parameterType="string" resultType="int">
+        SELECT count(*)
+        from stu_afl join student on stu_afl.student_id=student.id
+        where stu_afl.reason like concat('%',#{0},'%')
+        or student.`name` like concat('%',#{0},'%')
+    </select>
+
+    <select id="getAllStuAFL" parameterType="String" resultType="map">
+        SELECT stu_afl.id,stu_afl.student_id,student.name,stu_afl.reason,stu_afl.start_time,stu_afl.end_time,stu_afl.approve,stu_afl.approve_time
+        from stu_afl join student on stu_afl.student_id=student.id
+        where stu_afl.`reason` like concat('%',#{0},'%')
+        or student.`name` like concat('%',#{0},'%')
+    </select>
+
+    <update id="approveStuAFL" parameterType="int">
+        update stu_afl
+        set stu_afl.approve='1'
+        where stu_afl.student_id=#{0} and stu_afl.id=#{1}
+    </update>
+
+    <delete id="delStuAFL" parameterType="int">
+        DELETE FROM stu_afl
+        where stu_afl.student_id=#{0} and stu_afl.id=#{1}
+    </delete>
+</mapper>

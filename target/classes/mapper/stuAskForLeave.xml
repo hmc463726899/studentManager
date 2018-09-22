@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stu.user.dao.AFLDao">
+
+
+    <select id="getStuAFL" parameterType="int" resultType="map">
+        select *
+        from stu_afl
+        where student_id=#{0} LIMIT #{1},#{2}
+    </select>
+
+    <select id="getStuAFLCount" parameterType="int" resultType="int">
+        select count(*)
+        from stu_afl
+        where student_id=#{0}
+    </select>
+
+    <insert id="addStuAFL" parameterType="String">
+        INSERT INTO stu_afl (student_id,reason,start_time,end_time)
+        VALUES (#{0},#{1},#{2},#{3})
+    </insert>
+
+</mapper>

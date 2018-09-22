@@ -1,0 +1,76 @@
+/*!Don't remove this!
+ * jQuery DCalendar and DCalendar Picker plugin styles
+ * 
+ * Author: Dionlee Uy
+ * Email: dionleeuy@gmail.com
+ *
+ * Date: Mon Mar 2 2013
+ */
+.calendar {
+	position: relative;
+	font-family: 'Century Gothic','Segoe UI', Calibri, Arial;
+	font-size: 12px;
+	border-collapse: collapse;
+	margin: 0; padding: 0;
+	z-index: 4;
+	border:1px solid rgba(0,0,0,0.08);
+	width: 250px;
+	color: #000;
+	text-align: center;
+	background-color: #FFF;
+}
+.calendar th,
+.calendar td {
+	text-align: center;
+	-webki-ttransition: all 0.3s ease;
+	-moz-transition: all 0.3s ease;
+	transition: all 0.3s ease;
+}
+.calendar th:first-child,
+.calendar td:first-child {
+	margin-left: 5px;
+}
+.calendar span {
+	padding: 6px 4px; 
+	display: block;
+}
+.calendar .month {
+	padding: 15px;
+}
+
+.calendar .pMDate, .calendar .nMDate { color: #AAA; }
+.calendar .date, .calendar .pMDate, .calendar .nMDate, .calendar .month { cursor: pointer; }
+.calendar .date.disabled, .calendar .pMDate.disabled, .calendar .nMDate.disabled { cursor: not-allowed; }
+.calendar .date:not(.disabled):hover, .calendar .pMDate:not(.disabled):hover, .calendar .nMDate:not(.disabled):hover, .calendar .month:hover { background-color: #E2E2E2; }
+.calendar .date:not(.disabled):active, .calendar .pMDate:not(.disabled):active, .calendar .nMDate:not(.disabled):active, .calendar .month:active { background-color: #22A7F0; color: #FFF; }
+.calendar .selected {
+	background-color: #22A7F0 !important;
+	color: #FFF !important;
+}
+
+.calendar tr:first-child th {
+	background-color: #FFF;
+	padding: 4px;
+	padding-top: 8px;
+	font-size: 14px;
+}
+.calendar tr:first-child th { cursor: pointer; color:#000; }
+.calendar tr:first-child th:hover { color:#22A7F0; }
+.calendar tr:first-child th:active { color: #22A7F0; }
+.calendar thead tr:nth-child(2) th { color: #555; padding: 8px 3px; }
+.calendar #prev, .calendar #next {
+	font-family: 'Times New Roman';
+	font-size: 20px;
+	padding: 0;
+}
+.calendar #today {
+	text-align: center; cursor: pointer;
+	color: #22A7F0; padding: 10px 6px;
+}
+.calendar #today:hover { color: #80A7DD; }
+.calendar #today:active { color: #000; }
+.calendar #currDay { color:#22A7F0; }
+.datepicker {
+	background: url('./icon.png') transparent right no-repeat;
+	background-size: contain;
+}

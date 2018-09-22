@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stu.admin.dao.CourseManagerDao">
+
+    <select id="getTotal" parameterType="string" resultType="int">
+        select count(*) from course LEFT JOIN coursetype
+        on course.courseType=courseType.id
+        where course.name like concat('%',#{0},'%')
+        or courseType.name like concat('%',#{0},'%')
+    </select>
+	
+    <select id="getAllcourse" parameterType="String" resultType="map">
+        select course.*,courseType.name typeName ,count(stu_course.student_id) count from course
+		LEFT JOIN coursetype on course.courseType=courseType.id
+		LEFT JOIN stu_course on course_id=course.id
+		where course.name like concat('%',#{0},'%')
+		or courseType.name like concat('%',#{0},'%')
+		group by course.name limit #{1},#{2}
+    </select>
+	
+    <select id="getCombox" resultType="map">
+        select id,name from coursetype
+    </select>
+	
+    <insert id="addCourse" parameterType="string">
+        INSERT INTO course(name,courseType,score) VALUES(#{0},#{1},#{2})
+    </insert>
+	
+    <select id="getTotalByCourseId" parameterType="int" resultType="int">
+    select count(student_id) from stu_course where course_id=#{0}
+    </select>
+	
+    <select id="getStuByCourse" parameterType="int" resultType="map">
+        select student.* from stu_course
+        LEFT JOIN student
+        on student.id=stu_course.student_id
+        where course_id=#{0}
+        order by student.id desc limit #{1},#{2}
+    </select>
+	
+    <insert id="addCourseType" parameterType="String">
+        INSERT into coursetype(name) VALUES (#{0})
+    </insert>
+	
+    <delete id="delCourse" parameterType="int">
+        DELETE from course where id=#{0}
+    </delete>
+	
+    <delete id="delCourseAndStu" parameterType="int">
+        DELETE from stu_course where course_id=#{0}
+    </delete>
+	
+    <select id="getStudentCombox" resultType="map">
+        SELECT id,name from student
+    </select>
+	
+    <insert id="addStuToCourse" parameterType="int">
+        INSERT into stu_course(course_id,student_id) values(#{0},#{1})
+    </insert>
+	
+    <select id="getAllStuByCourse" parameterType="int" resultType="integer">
+        select student_id from stu_course where course_id=#{0}
+    </select>
+	
+    <select id="getStuGradeCount" parameterType="int" resultType="int">
+        SELECT COUNT(stu_course.id) FROM stu_course
+        LEFT JOIN course ON stu_course.`course_id`=course.`id`
+        WHERE course.`name` LIKE CONCAT('%',#{0},'%') AND stu_course.`course_id`=#{1}
+    </select>
+	
+    <select id="getStuGradeGrid" parameterType="string" resultType="map">
+        SELECT t1.id ,t2.id stuId,t2.`name`,t1.`score` FROM stu_course t1
+        LEFT JOIN student t2 ON t2.`id`=t1.`student_id`
+        LEFT JOIN course t3 ON t1.`course_id`=t3.`id`
+        WHERE t1.`course_id`=#{1} AND t3.`name` LIKE CONCAT('%',#{0},'%')
+        OR t2.`name` LIKE CONCAT('%',#{0},'%') AND t1.course_id=#{1} limit #{2},#{3}
+    </select>
+	
+    <update id="addStuGrade" parameterType="string">
+        UPDATE stu_course SET score=#{2} where student_id=#{0} and course_id=#{1}
+    </update>
+</mapper>

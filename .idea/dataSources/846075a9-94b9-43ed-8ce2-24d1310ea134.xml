@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="stumanager@localhost">
+  <database-model serializer="dbm" rdbms="MYSQL" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="stumanager">
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="dingcan"/>
+    <schema id="4" parent="1" name="information_schema"/>
+    <schema id="5" parent="1" name="mysql"/>
+    <schema id="6" parent="1" name="news"/>
+    <table id="7" parent="2" name="admin"/>
+    <table id="8" parent="2" name="course"/>
+    <table id="9" parent="2" name="coursetype"/>
+    <table id="10" parent="2" name="punish"/>
+    <table id="11" parent="2" name="quality"/>
+    <table id="12" parent="2" name="reward"/>
+    <table id="13" parent="2" name="stu_course"/>
+    <table id="14" parent="2" name="student"/>
+    <table id="15" parent="2" name="switch"/>
+    <table id="16" parent="2" name="user"/>
+    <column id="17" parent="7" name="id">
+      <Position>1</Position>
+      <Comment>管理员id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="18" parent="7" name="username">
+      <Position>2</Position>
+      <Comment>管理员账号</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="19" parent="7" name="name">
+      <Position>3</Position>
+      <Comment>管理员姓名</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="20" parent="7" name="password">
+      <Position>4</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <key id="21" parent="7" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="22" parent="8" name="id">
+      <Position>1</Position>
+      <Comment>课程Id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="23" parent="8" name="name">
+      <Position>2</Position>
+      <Comment>课程名称</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="24" parent="8" name="courseType">
+      <Position>3</Position>
+      <Comment>课程类型</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="25" parent="8" name="score">
+      <Position>4</Position>
+      <Comment>课程学分</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <key id="26" parent="8" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="27" parent="9" name="id">
+      <Position>1</Position>
+      <Comment>类型id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="28" parent="9" name="name">
+      <Position>2</Position>
+      <Comment>类型名称</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <key id="29" parent="9" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="30" parent="10" name="id">
+      <Position>1</Position>
+      <Comment>惩罚id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="31" parent="10" name="student_id">
+      <Position>2</Position>
+      <Comment>惩罚学生Id</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="32" parent="10" name="content">
+      <Position>3</Position>
+      <Comment>惩罚内容</Comment>
+      <DataType>varchar(1000)|0</DataType>
+    </column>
+    <key id="33" parent="10" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="34" parent="11" name="id">
+      <Position>1</Position>
+      <Comment>素质拓展Id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="35" parent="11" name="name">
+      <Position>2</Position>
+      <Comment>素质拓展活动名称</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="36" parent="11" name="score">
+      <Position>3</Position>
+      <Comment>素质拓展分数</Comment>
+      <DataType>float|0</DataType>
+    </column>
+    <column id="37" parent="11" name="student_id">
+      <Position>4</Position>
+      <Comment>选择学生id</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="38" parent="11" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="39" parent="12" name="id">
+      <Position>1</Position>
+      <Comment>奖励Id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="40" parent="12" name="student_id">
+      <Position>2</Position>
+      <Comment>奖励学生Id</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="41" parent="12" name="content">
+      <Position>3</Position>
+      <Comment>奖励内容</Comment>
+      <DataType>varchar(1000)|0</DataType>
+    </column>
+    <key id="42" parent="12" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="43" parent="13" name="id">
+      <Position>1</Position>
+      <Comment>选课Id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="44" parent="13" name="student_id">
+      <Position>2</Position>
+      <Comment>学生id</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="45" parent="13" name="course_id">
+      <Position>3</Position>
+      <Comment>课程Id</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <column id="46" parent="13" name="score">
+      <Position>4</Position>
+      <Comment>课程成绩</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="47" parent="13" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="48" parent="14" name="id">
+      <Position>1</Position>
+      <Comment>学生id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="49" parent="14" name="name">
+      <Position>2</Position>
+      <Comment>学生姓名</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="50" parent="14" name="idcard">
+      <Position>3</Position>
+      <Comment>身份证</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="51" parent="14" name="sex">
+      <Position>4</Position>
+      <Comment>性别</Comment>
+      <DataType>varchar(10)|0</DataType>
+    </column>
+    <column id="52" parent="14" name="phone">
+      <Position>5</Position>
+      <Comment>电话</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="53" parent="14" name="qq">
+      <Position>6</Position>
+      <Comment>QQ</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="54" parent="14" name="email">
+      <Position>7</Position>
+      <Comment>邮箱</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <column id="55" parent="14" name="address">
+      <Position>8</Position>
+      <Comment>家庭住址</Comment>
+      <DataType>varchar(50)|0</DataType>
+    </column>
+    <key id="56" parent="14" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="57" parent="15" name="id">
+      <Position>1</Position>
+      <Comment>开关id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="58" parent="15" name="name">
+      <Position>2</Position>
+      <Comment>开关名称</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="59" parent="15" name="state">
+      <Position>3</Position>
+      <Comment>开关状态(1位打开状态)</Comment>
+      <DataType>int(11)|0</DataType>
+    </column>
+    <key id="60" parent="15" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+    <column id="61" parent="16" name="id">
+      <Position>1</Position>
+      <Comment>用户id</Comment>
+      <DataType>int(11)|0</DataType>
+      <NotNull>1</NotNull>
+      <SequenceIdentity>1</SequenceIdentity>
+    </column>
+    <column id="62" parent="16" name="username">
+      <Position>2</Position>
+      <Comment>用户名</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="63" parent="16" name="account">
+      <Position>3</Position>
+      <Comment>登陆名</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <column id="64" parent="16" name="password">
+      <Position>4</Position>
+      <Comment>密码</Comment>
+      <DataType>varchar(20)|0</DataType>
+    </column>
+    <key id="65" parent="16" name="PRIMARY">
+      <NameSurrogate>1</NameSurrogate>
+      <ColNames>id</ColNames>
+      <Primary>1</Primary>
+    </key>
+  </database-model>
+</dataSource>

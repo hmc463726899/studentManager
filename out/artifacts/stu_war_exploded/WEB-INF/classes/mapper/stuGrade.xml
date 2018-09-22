@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stu.user.dao.GradeDao">
+    <select id="getTotalGrade" parameterType="int" resultType="int">
+        SELECT COUNT(*) FROM stu_course WHERE student_id = #{0}
+    </select>
+    <select id="getGrade" parameterType="int" resultType="map">
+        SELECT course.`name`,courseType.`name` courseType,course.`score` courseScore,stu_course.`score`
+        FROM stu_course LEFT JOIN course ON stu_course.`course_id`=course.`id`
+        LEFT JOIN coursetype ON coursetype.`id`=course.`courseType`
+        WHERE student_id = #{0} LIMIT #{1},#{2}
+    </select>
+    <select id="getAllGrade" parameterType="int" resultType="map">
+        SELECT course.`name`,courseType.`name` courseType,course.`score` courseScore,stu_course.`score`
+        FROM stu_course LEFT JOIN course ON stu_course.`course_id`=course.`id`
+        LEFT JOIN coursetype ON coursetype.`id`=course.`courseType`
+        WHERE student_id = #{0}
+    </select>
+</mapper>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stu.user.dao.StuCourseDao">
+
+    <select id="getTotalCourse" resultType="integer">
+        select count(*) from course
+    </select>
+	
+    <select id="getAllCourse" parameterType="string" resultType="map">
+        SELECT course.`id`,course.`name`,course.`score`,courseType.`name` courseType FROM course
+        LEFT JOIN coursetype ON coursetype.id=course.`courseType`
+        WHERE course.`name` LIKE CONCAT('%',#{0},'%')
+        ORDER BY course.`id` DESC
+        LIMIT #{1},#{2}
+    </select>
+	
+    <select id="getStuCourse" parameterType="integer" resultType="integer">
+        SELECT stu_course.`course_id` FROM stu_course WHERE stu_course.`student_id`=#{0}
+    </select>
+	
+    <select id="getCanGetCourse" resultType="integer">
+        select state from switch where name='courseSwitch'
+    </select>
+	
+    <insert id="getCourse" parameterType="integer">
+        INSERT into stu_course(student_id, course_id) VALUES (#{0},#{1})
+    </insert>
+	
+</mapper>

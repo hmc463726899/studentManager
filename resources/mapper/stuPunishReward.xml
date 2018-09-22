@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.stu.user.dao.RewardPunishDao">
+
+    <select id="getStuRewardCount" parameterType="int" resultType="int">
+        SELECT COUNT(*) FROM reward WHERE student_id = #{0}
+    </select>
+
+    <select id="getStuPunishCount" parameterType="int" resultType="int">
+        SELECT COUNT(*) FROM punish WHERE student_id = #{0}
+    </select>
+
+    <select id="getStuReward" parameterType="int" resultType="map">
+        select reward.content,reward.time
+        from reward
+        where student_id=#{0} LIMIT #{1},#{2}
+    </select>
+
+    <select id="getStuPunish" parameterType="int" resultType="map">
+        select punish.content,punish.time
+        from punish
+        where student_id=#{0} LIMIT #{1},#{2}
+    </select>
+
+</mapper>
