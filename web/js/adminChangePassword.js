@@ -46,7 +46,7 @@ var initClick = function(){
 
         $.ajax({
             async:false,
-            url:"/stu/user/updateAdminPassword.do",
+            url:"/pim/user/updateAdminPassword.do",
             type:"POST",
             data:{
                 adminId:adminId,
@@ -80,7 +80,7 @@ var checkOldPassword=function (adminName,adminPassword,role) {
 
     $.ajax({
         async:false,    //登陆时关闭异步
-        url:"/stu/user/userLogin.do",
+        url:"/pim/user/userLogin.do",
         type:"POST",
         data:{
             username:adminName,

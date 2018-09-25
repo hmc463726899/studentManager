@@ -13,9 +13,9 @@
     <context:annotation-config />
 
     <!-- 扫描web相关的bean -->
-    <context:component-scan base-package="com.stu.*.controller" />
-    <context:component-scan base-package="com.stu.*.service" />
-    <context:component-scan base-package="com.stu.*.dao" />
+    <context:component-scan base-package="com.pim.*.controller" />
+    <context:component-scan base-package="com.pim.*.service" />
+    <context:component-scan base-package="com.pim.*.dao" />
 
 
     <!-- 开启SpringMVC注解模式 -->

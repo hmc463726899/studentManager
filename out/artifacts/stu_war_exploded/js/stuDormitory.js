@@ -11,7 +11,7 @@ $(document).ready(function(){
 var initMsg = function(){
     var stuId = $("#userId").val();
     $.ajax({
-        url:"/stu/dormitory/getStuDormitoryInfo.do",
+        url:"/pim/dormitory/getStuDormitoryInfo.do",
         type:"POST",
         data:{
             stuId:stuId

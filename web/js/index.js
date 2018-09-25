@@ -7,7 +7,7 @@ $(document).ready(function(){
 
 /*var checkAdminLogin = function(){
     $.ajax({
-        url:"/stu/stuManager/getAdminLoginStatus.do",
+        url:"/pim/stuManager/getAdminLoginStatus.do",
         type:"POST",
         data:{
 
@@ -37,7 +37,7 @@ var initSwitch = function(){
         size:"small",
         onInit:function(){
             $.ajax({
-                url:"/stu/stuManager/getSwitch.do",
+                url:"/pim/stuManager/getSwitch.do",
                 type:"POST",
                 data:{
                     name:"studentSwitch"
@@ -57,7 +57,7 @@ var initSwitch = function(){
 //设置switch状态
 var changeSwitchState = function(state){
     $.ajax({
-        url:"/stu/stuManager/setSwitch.do",
+        url:"/pim/stuManager/setSwitch.do",
         type:"POST",
         data:{
             name:"studentSwitch",
@@ -71,7 +71,7 @@ var changeSwitchState = function(state){
 //初始化datagrid
 var initDataGrid = function(){
 	$("#content").datagrid({
-		url:"/stu/stuManager/getAllStu.do",
+		url:"/pim/stuManager/getAllStu.do",
 		width:'auto',   //表格宽度
 		height:'500px',
 		columns:[[
@@ -163,7 +163,7 @@ var initClick = function(){
         }
 
 	    $.ajax({
-            url:"/stu/stuManager/checkStuDuplicate.do",
+            url:"/pim/stuManager/checkStuDuplicate.do",
             async:false,
             type:"POST",
             data:{
@@ -202,7 +202,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/stuManager/addStudent.do",
+            url:"/pim/stuManager/addStudent.do",
             type:"POST",
             data:{
                 name:name,
@@ -251,7 +251,7 @@ var initClick = function(){
         $.messager.confirm("提示","您确定要删除这条学生信息吗？",function(r){
 			if(r){
                 $.ajax({
-                    url:"/stu/stuManager/delMoreStudent.do",
+                    url:"/pim/stuManager/delMoreStudent.do",
                     type:"POST",
                     data:{
                         ids:ids
@@ -331,7 +331,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/stuManager/updateStudent.do",
+            url:"/pim/stuManager/updateStudent.do",
             type:"POST",
             data:{
                 id:id,
@@ -387,7 +387,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/dormitory/updateStuDormitoryInfo.do",
+            url:"/pim/dormitory/updateStuDormitoryInfo.do",
             type:"POST",
             data:{
                 stuId:id,
@@ -428,7 +428,7 @@ var initClick = function(){
 
         var id = $("#update-hiddenID").val();
         $.ajax({
-            url:"/stu/dormitory/delStuDormitoryInfo.do",
+            url:"/pim/dormitory/delStuDormitoryInfo.do",
             type:"POST",
             data:{
                 stuId:id,
@@ -475,7 +475,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/dormitory/addStuDormitoryInfo.do",
+            url:"/pim/dormitory/addStuDormitoryInfo.do",
             type:"POST",
             data:{
                 stuId:id,
@@ -527,7 +527,7 @@ var initClick = function(){
         var content = $("#rewardText").val();
         var time = $("#rewardTime").val();
         $.ajax({
-            url:"/stu/stuManager/addreward.do",
+            url:"/pim/stuManager/addreward.do",
             type:"POST",
             data:{
                 id:id,
@@ -558,7 +558,7 @@ var initClick = function(){
         $("#rewardCombobox").combobox({
            loader:function(param,success,error){
                $.ajax({
-                   url:"/stu/stuManager/getRewardCombobox.do",
+                   url:"/pim/stuManager/getRewardCombobox.do",
                    type:"POST",
                    data:{
                        id:id
@@ -578,7 +578,7 @@ var initClick = function(){
         var id = $("#rewardCombobox").combobox("getValue");
         var stuid = $("#studentNameCombox").combobox("getValue");
         $.ajax({
-            url:"/stu/stuManager/delReword.do",
+            url:"/pim/stuManager/delReword.do",
             type:"POST",
             data:{
                 id:id
@@ -608,7 +608,7 @@ var initClick = function(){
         var content = $("#punishText").val();
         var time=$("#punishTime").val();
         $.ajax({
-            url:"/stu/stuManager/addPunish.do",
+            url:"/pim/stuManager/addPunish.do",
             type:"POST",
             data:{
                 id:stuId,
@@ -642,7 +642,7 @@ var initClick = function(){
         $("#punishCombobox").combobox({
             loader:function(param,success,error){
                 $.ajax({
-                    url:"/stu/stuManager/getPunishCombobox.do",
+                    url:"/pim/stuManager/getPunishCombobox.do",
                     type:"POST",
                     data:{
                         id:id
@@ -662,7 +662,7 @@ var initClick = function(){
         var id = $("#punishCombobox").combobox("getValue");
         var stuid = $("#studentNameCombox").combobox("getValue");
         $.ajax({
-            url:"/stu/stuManager/delPunish.do",
+            url:"/pim/stuManager/delPunish.do",
             type:"POST",
             data:{
                 id:id
@@ -693,7 +693,7 @@ var initClick = function(){
         var time = $("#qualityTime").val();
         var id = $("#stuHiddenId").val();
         $.ajax({
-            url:"/stu/stuManager/addQulity.do",
+            url:"/pim/stuManager/addQulity.do",
             type:"POST",
             data:{
                 id:id,
@@ -729,7 +729,7 @@ var initClick = function(){
 //显示修改学生信息对话框
 var showUpdateBox = function(id){
 	$.ajax({
-		url:"/stu/stuManager/getStudent.do",
+		url:"/pim/stuManager/getStudent.do",
         type:"POST",
         data:{
             id:id
@@ -765,7 +765,7 @@ var del = function(id){
 	$.messager.confirm("确认信息","您确定要删除这条学生信息吗？",function(r){
 		if(r){
 			$.ajax({
-				url:"/stu/stuManager/delStudent.do",
+				url:"/pim/stuManager/delStudent.do",
 				type:"POST",
 				data:{
 					id:id
@@ -809,7 +809,7 @@ var reward = function(studentId){
     })
     //学生姓名下拉列表
     $("#studentNameCombox").combobox({
-        url:"/stu/stuManager/getStudentCombox.do",
+        url:"/pim/stuManager/getStudentCombox.do",
         valueField:"id",
         textField:"name",
         value:studentId,//默认值
@@ -838,7 +838,7 @@ var dorm = function(studentId){
     $("#dormZoneCombox").combobox({
         loader:function(param,success,error){
             $.ajax({
-                url:"/stu/dormitory/getdormZoneCombox.do",
+                url:"/pim/dormitory/getdormZoneCombox.do",
                 type:"POST",
                 data:{
                 },
@@ -867,7 +867,7 @@ var quality = function(studentId){
         height:400
     });
     $("#qualityDatagrid").datagrid({
-        url:"/stu/stuManager/getAllQuality.do",
+        url:"/pim/stuManager/getAllQuality.do",
         width:'auto',   //表格宽度
         height:'365px',
         columns:[[
@@ -916,7 +916,7 @@ var quality = function(studentId){
 //通过学生id查找学生奖惩信息
 var loadRewardMsg = function (studentId) {
     $.ajax({
-        url:"/stu/stuManager/getStudentReward.do",
+        url:"/pim/stuManager/getStudentReward.do",
         type:"POST",
         data:{id:studentId},
         success:function(result){
@@ -960,7 +960,7 @@ var loadStuDormMsg = function (studentId) {
     var zone_id=undefined;
     $.ajax({
         async: false,
-        url:"/stu/dormitory/getStuDormitoryInfo.do",
+        url:"/pim/dormitory/getStuDormitoryInfo.do",
         type:"POST",
         data:{
             stuId:studentId},
@@ -987,7 +987,7 @@ var loadStuDormMsg = function (studentId) {
 //通过学生ID计算素质拓展分总分
 var getCountQuality = function(id){
     $.ajax({
-        url:"/stu/stuManager/getCountQuality.do",
+        url:"/pim/stuManager/getCountQuality.do",
         type:"POST",
         data:{
             id:id,
@@ -1002,7 +1002,7 @@ var delQuality = function(id){
     $.messager.confirm("提示信息","您确定要删除这个活动吗？",function (r) {
         if(r){
             $.ajax({
-                url:"/stu/stuManager/delQuality.do",
+                url:"/pim/stuManager/delQuality.do",
                 type:"POST",
                 data:{
                     id:id

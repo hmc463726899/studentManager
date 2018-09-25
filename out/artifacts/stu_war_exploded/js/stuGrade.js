@@ -12,7 +12,7 @@ $(document).ready(function(){
 var initDataGrid = function(){
     var stuId = $("#userId").val();
     $("#studentGradeBox").datagrid({
-        url:"/stu/grade/getGrade.do",
+        url:"/pim/grade/getGrade.do",
         width:'auto',   //表格宽度
         height:'500px',
         columns:[[
@@ -51,7 +51,7 @@ var initDataGrid = function(){
 var initJD = function(){
     var stuId = $("#userId").val();
     $.ajax({
-        url:"/stu/grade/getJD.do",
+        url:"/pim/grade/getJD.do",
         type:"POST",
         data:{
             stuId:stuId

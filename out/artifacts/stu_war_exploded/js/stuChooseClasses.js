@@ -14,7 +14,7 @@ $(document).ready(function(){
 var initDataGrid = function(){
     var stuId = $("#userId").val();
     $("#studentCourseBox").datagrid({
-        url:"/stu/stuCourse/getAllCourse.do",
+        url:"/pim/stuCourse/getAllCourse.do",
         width:'auto',   //表格宽度
         height:'500px',
         columns:[[
@@ -58,7 +58,7 @@ var initDataGrid = function(){
 //初始化信息
 var initMsg = function(){
     $.ajax({
-        url:"/stu/stuCourse/getMsg.do",
+        url:"/pim/stuCourse/getMsg.do",
         type:"POST",
         success:function(result){
             $("#MsgBtn").html(result.msg);
@@ -80,7 +80,7 @@ var initClick = function(){
 var getCourse =function(courseId){
     var stuId = $("#userId").val();
     $.ajax({
-        url:"/stu/stuCourse/getCourse.do",
+        url:"/pim/stuCourse/getCourse.do",
         type:"POST",
         data:{
             stuId:stuId,

@@ -22,6 +22,7 @@
         <property name="username" value="root" />
         <property name="password" value="123456" />
     </bean>
+
     <!-- 创建SqlSessionFactory，同时指定数据源 -->
     <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
         <property name="dataSource" ref="dataSource" />
@@ -32,6 +33,7 @@
             </list>
         </property>
     </bean>
+
     <!-- 配置文件上传参数 -->
     <bean id="multipartResolver"
           class="org.springframework.web.multipart.commons.CommonsMultipartResolver">
@@ -46,11 +48,13 @@
         </property>
         <property name="resolveLazily" value="true" />
     </bean>
+
     <!-- MapperScannerConfigurer配置 -->
     <bean class="org.mybatis.spring.mapper.MapperScannerConfigurer">
         <!-- basePackage指定要扫描的包，在此包之下的映射器都会被搜索到。可指定多个包，包与包之间用逗号或分号分隔 -->
-        <property name="basePackage" value="com.stu.*.dao" />
+        <property name="basePackage" value="com.pim.*.dao" />
     </bean>
+
     <!-- 配置事务管理 -->
     <bean id="transactionManager"
           class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

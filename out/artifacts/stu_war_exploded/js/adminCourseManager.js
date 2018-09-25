@@ -13,7 +13,7 @@ $(document).ready(function(){
 //初始化datagrid
 var initDataGrid = function(){
     $("#content").datagrid({
-        url:"/stu/courseManager/getAllcourse.do",
+        url:"/pim/courseManager/getAllcourse.do",
         width:'auto',   //表格宽度
         height:'500px',
         columns:[[
@@ -62,7 +62,7 @@ var initClick = function(){
         size:"small",
         onInit:function(){
             $.ajax({
-                url:"/stu/stuManager/getSwitch.do",
+                url:"/pim/stuManager/getSwitch.do",
                 type:"POST",
                 data:{
                     name:"courseSwitch"
@@ -81,7 +81,7 @@ var initClick = function(){
     //设置switch状态
     var changeSwitchState = function(state){
         $.ajax({
-            url:"/stu/stuManager/setSwitch.do",
+            url:"/pim/stuManager/setSwitch.do",
             type:"POST",
             data:{
                 name:"courseSwitch",
@@ -106,7 +106,7 @@ var initClick = function(){
         });
         //课程分类下拉列表
         $("#courseType").combobox({
-            url:"/stu/courseManager/getCombox.do",
+            url:"/pim/courseManager/getCombox.do",
             valueField:"id",
             textField:"name",
             value:'1',//默认值
@@ -119,7 +119,7 @@ var initClick = function(){
         var type = $("#courseType").val();
         var score = $("#courseScore").val();
         $.ajax({
-            url:"/stu/courseManager/addCourse.do",
+            url:"/pim/courseManager/addCourse.do",
             type:"POST",
             data:{
                 name:name,
@@ -163,7 +163,7 @@ var initClick = function(){
     $("#subAddTyptBtn").click(function () {
         var typeName = $("#courseTypeName").val();
         $.ajax({
-            url:"/stu/courseManager/addCourseType.do",
+            url:"/pim/courseManager/addCourseType.do",
             type:"POST",
             data:{
                 typeName:typeName
@@ -193,7 +193,7 @@ var initClick = function(){
         var courseId = $("#courseIdHidden").val();
         var stuId = $("#studentNameCombobox").combobox("getValue");
         $.ajax({
-            url:"/stu/courseManager/addStuToCourse.do",
+            url:"/pim/courseManager/addStuToCourse.do",
             type:"POST",
             data:{
                 courseId:courseId,
@@ -235,7 +235,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/courseManager/addStuGrade.do",
+            url:"/pim/courseManager/addStuGrade.do",
             type:"POST",
             data:{
                 courseId:courseId,
@@ -267,7 +267,7 @@ var showStudent = function(id,courseName){
     });
     //学生datagrid
     $("#studentBox").datagrid({
-        url:"/stu/courseManager/getStuByCourse.do",
+        url:"/pim/courseManager/getStuByCourse.do",
         width:'auto',   //表格宽度
         height:'500',
         columns:[[
@@ -299,7 +299,7 @@ var delCourse = function(id){
     $.messager.confirm("提示信息","您确定要删除这个课程吗？",function(r){
         if(r){
             $.ajax({
-                url:"/stu/courseManager/delCourse.do",
+                url:"/pim/courseManager/delCourse.do",
                 type:"POST",
                 data:{
                     id:id
@@ -338,7 +338,7 @@ var addStudent = function(courseId){
     $("#studentNameCombobox").combobox({
         loader:function(param,success,error){
             $.ajax({
-                url:"/stu/courseManager/getStudentCombox.do",
+                url:"/pim/courseManager/getStudentCombox.do",
                 type:"POST",
                 data:{
                     courseId:courseId
@@ -362,7 +362,7 @@ var inputGrade = function(courseId){
         height:400
     });
     $("#studentGradeBox").datagrid({
-        url:"/stu/courseManager/getStuGradeGrid.do",
+        url:"/pim/courseManager/getStuGradeGrid.do",
         width:'auto',   //表格宽度
         height:'400px',
         columns:[[

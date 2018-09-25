@@ -60,7 +60,7 @@ var initClick = function(){
 
         $.ajax({
             async:false,    //登陆时关闭异步，否则登陆成功提示不成功
-            url:"/stu/user/userLogin.do",
+            url:"/pim/user/userLogin.do",
             type:"POST",
             data:{
                 username:username,

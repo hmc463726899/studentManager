@@ -33,7 +33,7 @@ var initClick = function () {
         }
 
         $.ajax({
-            url:"/stu/askforleave/addStuAFL.do",
+            url:"/pim/askforleave/addStuAFL.do",
             type:"POST",
             data:{
                 stuId:stuId,
@@ -66,7 +66,7 @@ var initClick = function () {
 var initDataGrid = function(){
     var stuId = $("#userId").val();
     $("#studentAFLContent").datagrid({
-        url:"/stu/askforleave/getStuAFL.do",
+        url:"/pim/askforleave/getStuAFL.do",
         width:'auto',   //表格宽度
         height:'500px',
         columns:[[

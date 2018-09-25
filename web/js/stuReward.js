@@ -12,7 +12,7 @@ $(document).ready(function(){
 var initDataGrid = function(){
     var stuId = $("#userId").val();
     $("#studentRewardGrid").datagrid({
-        url:"/stu/rewardpunish/getReward.do",
+        url:"/pim/rewardpunish/getReward.do",
         width:'auto',   //表格宽度
         height:'500px',
         columns:[[

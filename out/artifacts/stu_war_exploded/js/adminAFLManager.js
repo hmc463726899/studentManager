@@ -13,7 +13,7 @@ $(document).ready(function(){
 //初始化datagrid
 var initDataGrid = function(){
     $("#content").datagrid({
-        url:"/stu/aflManager/getAllStuAFL.do",
+        url:"/pim/aflManager/getAllStuAFL.do",
         width:'auto',   //表格宽度
         height:'500px',
         columns:[[
@@ -99,7 +99,7 @@ var delStuAFL = function(aflId,stuId){
     $.messager.confirm("确认信息","您确定要删除这条学生请假信息吗？",function(r){
         if(r){
             $.ajax({
-                url:"/stu/aflManager/delStuAFL.do",
+                url:"/pim/aflManager/delStuAFL.do",
                 type:"POST",
                 data:{
                     stuId:stuId,
@@ -146,7 +146,7 @@ var initClick = function(){
         var aflId = $("#aflId").val();
 
         $.ajax({
-            url:"/stu/aflManager/approveStuAFL.do",
+            url:"/pim/aflManager/approveStuAFL.do",
             type:"POST",
             data:{
                 stuId:stuId,

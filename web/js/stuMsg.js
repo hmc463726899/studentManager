@@ -12,7 +12,7 @@ $(document).ready(function(){
 var initMsg = function(){
     var stuId = $("#userId").val();
     $.ajax({
-        url:"/stu/student/getStuMsg.do",
+        url:"/pim/student/getStuMsg.do",
         type:"POST",
         data:{
             stuId:stuId
@@ -47,7 +47,7 @@ var initClick = function(){
         var email = $("#email").val();
         var address = $("#address").val();
         $.ajax({
-            url:"/stu/student/updateMsg.do",
+            url:"/pim/student/updateMsg.do",
             type:"POST",
             data:{
                 stuId:stuId,
@@ -75,7 +75,7 @@ var initClick = function(){
         var password = $("#password").val();
         var repassword = $("#repassword").val();
         $.ajax({
-            url:"/stu/student/resetAccount.do",
+            url:"/pim/student/resetAccount.do",
             type:"POST",
             data:{
                 stuId:stuId,

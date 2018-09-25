@@ -13,7 +13,7 @@ $(document).ready(function(){
 //初始化datagrid
 var initDataGrid = function(){
     $("#content").datagrid({
-        url:"/stu/dormitory/getAllStuDormitory.do",
+        url:"/pim/dormitory/getAllStuDormitory.do",
         width:'auto',   //表格宽度
         height:'500px',
         columns:[[
@@ -62,7 +62,7 @@ var dorm = function(studentId){
     $("#dormZoneCombox").combobox({
         loader:function(param,success,error){
             $.ajax({
-                url:"/stu/dormitory/getdormZoneCombox.do",
+                url:"/pim/dormitory/getdormZoneCombox.do",
                 type:"POST",
                 data:{
                 },
@@ -92,7 +92,7 @@ var loadStuDormMsg = function (studentId) {
     var zone_id=undefined;
     $.ajax({
         async: false,
-        url:"/stu/dormitory/getStuDormitoryInfo.do",
+        url:"/pim/dormitory/getStuDormitoryInfo.do",
         type:"POST",
         data:{
             stuId:studentId},
@@ -131,7 +131,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/dormitory/updateStuDormitoryInfo.do",
+            url:"/pim/dormitory/updateStuDormitoryInfo.do",
             type:"POST",
             data:{
                 stuId:id,
@@ -174,7 +174,7 @@ var initClick = function(){
 
         var id = $("#update-hiddenID").val();
         $.ajax({
-            url:"/stu/dormitory/delStuDormitoryInfo.do",
+            url:"/pim/dormitory/delStuDormitoryInfo.do",
             type:"POST",
             data:{
                 stuId:id,
@@ -223,7 +223,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/dormitory/addStuDormitoryInfo.do",
+            url:"/pim/dormitory/addStuDormitoryInfo.do",
             type:"POST",
             data:{
                 stuId:id,
@@ -286,7 +286,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/dormitory/addDormiZone.do",
+            url:"/pim/dormitory/addDormiZone.do",
             type:"POST",
             data:{
                 zoneName:zoneName
@@ -332,7 +332,7 @@ var initClick = function(){
         $("#delZoneCombox").combobox({
             loader:function(param,success,error){
                 $.ajax({
-                    url:"/stu/dormitory/getdormZoneCombox.do",
+                    url:"/pim/dormitory/getdormZoneCombox.do",
                     type:"POST",
                     data:{
                     },
@@ -365,7 +365,7 @@ var initClick = function(){
         }
 
         $.ajax({
-            url:"/stu/dormitory/delDormiZone.do",
+            url:"/pim/dormitory/delDormiZone.do",
             type:"POST",
             data:{
                 zoneId:zone_id

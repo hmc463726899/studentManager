@@ -6,7 +6,130 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9e31e2be-757a-44ce-9cb6-d9445c2efeed" name="Default" comment="" />
+    <list default="true" id="9e31e2be-757a-44ce-9cb6-d9445c2efeed" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/artifacts/stu_war_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/stu_war_exploded.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminAFLManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminAFLManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminChangePassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminChangePassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminCourseManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminCourseManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminDormiManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/adminDormiManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuAFL.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuAFL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuChooseClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuChooseClasses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuDormitory.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuDormitory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuGrade.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuGrade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuMsg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuPunish.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuPunish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuReward.js" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/stu_war_exploded/js/stuReward.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/adminAFLManager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/adminAFLManager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/adminStuManager.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/adminStuManager.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/course_admin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/course_admin.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/course_stu.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/course_stu.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/dormitory.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/dormitory.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/stuAskForLeave.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/stuAskForLeave.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/stuChooseClass.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/stuChooseClass.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/stuGrade.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/stuGrade.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/stuPunishReward.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/stuPunishReward.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/mapper/user.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/mapper/user.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/spring-mvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/spring-mvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/spring-mybatis.xml" beforeDir="false" afterPath="$PROJECT_DIR$/resources/spring-mybatis.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/controller/AFLManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/controller/AFLManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/controller/CourseManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/controller/CourseManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/controller/StuManagerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/controller/StuManagerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/dao/AFLManagerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/dao/AFLManagerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/dao/CourseManagerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/dao/CourseManagerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/dao/StuManagerDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/dao/StuManagerDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/service/AFLManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/service/AFLManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/service/CourseManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/service/CourseManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/admin/service/StuManagerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/admin/service/StuManagerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/controller/AFLController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/controller/AFLController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/controller/DormitoryController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/controller/DormitoryController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/controller/GradeController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/controller/GradeController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/controller/RewardPunishController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/controller/RewardPunishController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/controller/StuCourseController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/controller/StuCourseController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/controller/StudentController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/dao/AFLDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/dao/AFLDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/dao/DormitoryDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/dao/DormitoryDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/dao/GradeDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/dao/GradeDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/dao/RewardPunishDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/dao/RewardPunishDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/dao/StuCourseDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/dao/StuCourseDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/dao/StudentDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/dao/UserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/dao/UserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/service/AFLService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/service/AFLService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/service/DormitoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/service/DormitoryService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/service/GradeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/service/GradeService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/service/RewardPunishService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/service/RewardPunishService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/service/StuCourseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/service/StuCourseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/service/StudentService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/user/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/user/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/stu/util/ResponseUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/pim/util/ResponseUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stu.iml" beforeDir="false" afterPath="$PROJECT_DIR$/pim.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/stumanager.sql" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/controller/AFLManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/controller/CourseManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/controller/StuManagerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/dao/AFLManagerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/dao/CourseManagerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/dao/StuManagerDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/service/AFLManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/service/CourseManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/admin/service/StuManagerService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/controller/AFLController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/controller/DormitoryController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/controller/GradeController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/controller/RewardPunishController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/controller/StuCourseController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/controller/StudentController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/controller/UserController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/dao/AFLDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/dao/DormitoryDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/dao/GradeDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/dao/RewardPunishDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/dao/StuCourseDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/dao/StudentDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/dao/UserDao.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/service/AFLService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/service/DormitoryService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/service/GradeService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/service/RewardPunishService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/service/StuCourseService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/service/StudentService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/user/service/UserService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/stu/util/ResponseUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/adminAFLManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/adminStuManager.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/course_admin.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/course_stu.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/dormitory.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/stuAskForLeave.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/stuChooseClass.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/stuGrade.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/stuPunishReward.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/mapper/user.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mvc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/spring-mybatis.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/adminAFLManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/adminAFLManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/adminChangePassword.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/adminChangePassword.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/adminCourseManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/adminCourseManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/adminDormiManager.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/adminDormiManager.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/login.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/login.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/stuAFL.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/stuAFL.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/stuChooseClasses.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/stuChooseClasses.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/stuDormitory.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/stuDormitory.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/stuGrade.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/stuGrade.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/stuMsg.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/stuMsg.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/stuPunish.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/stuPunish.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/web/js/stuReward.js" beforeDir="false" afterPath="$PROJECT_DIR$/web/js/stuReward.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/班级学生信息管理系统-平台搭建与用户界面说明书.docx" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/web/WEB-INF/classes/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,8 +143,37 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
+          <entry key="project.open.time.15" value="1" />
           <entry key="project.open.time.17" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="iml" value="1" />
+          <entry key="java" value="5" />
+          <entry key="md" value="1" />
+          <entry key="properties" value="1" />
+          <entry key="xml" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="5" />
+          <entry key="Markdown" value="1" />
+          <entry key="Properties" value="1" />
+          <entry key="XML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="xml" value="9" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="XML" value="9" />
         </counts>
       </usages-collector>
     </session>
@@ -32,96 +184,47 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/DormitoryController.java">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2584">
-              <caret line="136" column="34" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/adminCourseManager.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3344">
-              <caret line="176" column="43" selection-start-line="176" selection-start-column="35" selection-end-line="176" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/adminCourseManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4199">
-              <caret line="221" column="16" selection-start-line="221" selection-start-column="8" selection-end-line="221" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/service/DormitoryService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2413">
-              <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/dao/DormitoryDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="33" column="21" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="21" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/adminDormiManager.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2831">
-              <caret line="149" column="81" selection-start-line="149" selection-start-column="68" selection-end-line="149" selection-end-column="81" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/js/adminDormiManager.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="6688">
-              <caret line="352" column="11" selection-start-line="352" selection-start-column="11" selection-end-line="352" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="323">
-                <caret line="17" selection-start-line="17" selection-end-line="17" />
-              </first_editor>
-              <second_editor />
+            <state relative-caret-position="89">
+              <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/stumanager.sql">
+        <entry file="file://$PROJECT_DIR$/resources/spring-mybatis.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+            <state relative-caret-position="137">
+              <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/login.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/admin/controller/AFLManagerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="570">
-              <caret line="30" column="46" selection-start-line="30" selection-start-column="46" selection-end-line="30" selection-end-column="46" />
+            <state relative-caret-position="38">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/spring-mvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="197">
+              <caret line="22" selection-start-line="22" selection-end-line="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -184,7 +287,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/stu/user/controller/AFLController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stu/user/controller/GradeController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stu/user/controller/RewardPunishController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/stu/user/controller/StuCourseController.java" />
@@ -235,6 +337,7 @@
         <option value="$PROJECT_DIR$/stumanager.sql" />
         <option value="$PROJECT_DIR$/web/login.jsp" />
         <option value="$PROJECT_DIR$/web/js/adminCourseManager.js" />
+        <option value="$PROJECT_DIR$/resources/spring-mybatis.xml" />
       </list>
     </option>
   </component>
@@ -274,11 +377,87 @@
     <option name="height" value="722" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1">
+    <navigator currentView="Scope" currentSubView="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="resources" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="admin" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="com" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="pim" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="user" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="pim" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="web" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -286,11 +465,44 @@
               <item name="PersonalInfoManager" type="b2602c69:ProjectViewProjectNode" />
               <item name="PersonalInfoManager" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="PersonalInfoManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalInfoManager" type="462c0819:PsiDirectoryNode" />
+              <item name="out" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalInfoManager" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalInfoManager" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalInfoManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalInfoManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="PersonalInfoManager" type="b2602c69:ProjectViewProjectNode" />
+              <item name="PersonalInfoManager" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -301,10 +513,10 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
-    <property name="project.structure.side.proportion" value="0.33793104" />
-    <property name="settings.editor.selected.configurable" value="preferences.applicationServers" />
+    <property name="project.structure.side.proportion" value="0.5149425" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -354,6 +566,53 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <module name="pim" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
+      <module name="pim" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <properties />
@@ -373,12 +632,46 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="index_jsp_studentManager_2" />
+        <option name="HTTP_PORT" value="8080" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="49529" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
       <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
         <option name="USE_ENV_VARIABLES" value="true" />
         <STARTUP>
@@ -401,46 +694,7 @@
         </option>
       </method>
     </configuration>
-    <configuration name="login.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.88" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
-      <deployment>
-        <artifact name="stu:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="login_jsp_(1)_studentManager" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method v="2">
-        <option name="Make" enabled="true" />
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="stu:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.88" ALTERNATIVE_JRE_ENABLED="false">
+    <configuration name="login.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 9" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/login.jsp" />
       <option name="UPDATING_POLICY" value="update-resources" />
       <deployment>
@@ -525,12 +779,10 @@
     <list>
       <item itemvalue="Tomcat Server.index.jsp" />
       <item itemvalue="Tomcat Server.login.jsp" />
-      <item itemvalue="Tomcat Server.login.jsp (1)" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Tomcat Server.login.jsp" />
-        <item itemvalue="Tomcat Server.login.jsp (1)" />
         <item itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
@@ -566,11 +818,12 @@
       <workItem from="1530375749088" duration="544000" />
       <workItem from="1530420357251" duration="6259000" />
       <workItem from="1537847088338" duration="605000" />
+      <workItem from="1537857958991" duration="4415000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="152199000" />
+    <option name="totallyTimeSpent" value="156614000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,18 +835,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1040" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="750" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4945055" visible="true" weight="0.5040816" />
-      <window_info id="Structure" order="1" weight="0.24973376" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.4945055" visible="true" weight="0.32262212" />
+      <window_info id="Structure" order="1" weight="0.24935733" />
       <window_info id="Designer" order="2" />
       <window_info id="UI Designer" order="3" />
       <window_info id="Favorites" order="4" sideWeight="0.50549453" side_tool="true" weight="0.22097977" />
       <window_info id="Web" order="5" side_tool="true" />
-      <window_info anchor="bottom" id="Database Changes" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32937366" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" weight="0.2904762" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32901135" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4978701" visible="true" weight="0.18800648" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.2948164" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -604,7 +857,8 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Spring" order="11" weight="0.24946004" />
       <window_info anchor="bottom" id="Terminal" order="12" />
-      <window_info anchor="bottom" id="Messages" order="13" weight="0.32937366" />
+      <window_info anchor="bottom" id="Messages" order="13" weight="0.32901135" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -627,25 +881,25 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/StuCourseController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pim/user/controller/StuCourseController.java</url>
           <line>41</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/RewardPunishController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pim/user/controller/RewardPunishController.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="7" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stu/user/service/RewardPunishService.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pim/user/service/RewardPunishService.java</url>
           <line>31</line>
           <properties />
           <option name="timeStamp" value="8" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/AFLController.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/pim/user/controller/AFLController.java</url>
           <line>45</line>
           <properties />
           <option name="timeStamp" value="13" />
@@ -673,7 +927,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/service/AFLService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/service/AFLService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="20" column="3" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
@@ -694,17 +948,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/admin/dao/AFLManagerDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/admin/dao/AFLManagerDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="361">
           <caret line="22" column="4" lean-forward="true" selection-start-line="22" selection-start-column="4" selection-end-line="22" selection-end-column="79" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/admin/service/AFLManagerService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/admin/service/AFLManagerService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="571">
           <caret line="70" column="31" selection-start-line="70" selection-start-column="22" selection-end-line="70" selection-end-column="31" />
@@ -720,7 +971,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/AFLController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/controller/AFLController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="627">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
@@ -734,7 +985,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/StudentController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="160">
           <caret line="49" column="19" lean-forward="true" selection-start-line="49" selection-start-column="19" selection-end-line="49" selection-end-column="19" />
@@ -748,20 +999,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/admin/service/StuManagerService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7011">
-          <caret line="378" column="52" selection-start-line="378" selection-start-column="52" selection-end-line="378" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/admin/dao/StuManagerDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="66" column="15" selection-start-line="66" selection-start-column="15" selection-end-line="66" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/mapper/adminStuManager.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1919">
@@ -769,29 +1006,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/admin/controller/AFLManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="779">
-          <caret line="57" column="6" selection-start-line="57" selection-start-column="6" selection-end-line="57" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/admin/controller/StuManagerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="350" column="61" selection-start-line="350" selection-start-column="61" selection-end-line="350" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/service/RewardPunishService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/service/RewardPunishService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="14" column="38" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="38" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/stu.iml">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/web/signup.jsp">
       <provider selected="true" editor-type-id="text-editor">
@@ -849,14 +1069,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/service/UserService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/service/UserService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="665">
           <caret line="45" column="64" selection-start-line="45" selection-start-column="51" selection-end-line="45" selection-end-column="64" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/dao/UserDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/dao/UserDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="532">
           <caret line="31" column="23" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="28" />
@@ -870,7 +1090,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/UserController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1064">
           <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
@@ -891,23 +1111,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resources/spring-mybatis.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/resources/spring-mvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="67" column="29" selection-start-line="67" selection-start-column="29" selection-end-line="67" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resources/mapper/dormitory.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
@@ -915,9 +1118,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/controller/DormitoryController.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/controller/DormitoryController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2584">
+        <state relative-caret-position="2337">
           <caret line="136" column="34" selection-start-line="136" selection-start-column="22" selection-end-line="136" selection-end-column="34" />
         </state>
       </provider>
@@ -936,14 +1139,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/service/DormitoryService.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/service/DormitoryService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2413">
           <caret line="136" column="1" selection-start-line="136" selection-start-column="1" selection-end-line="136" selection-end-column="1" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/stu/user/dao/DormitoryDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/user/dao/DormitoryDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
           <caret line="33" column="21" selection-start-line="33" selection-start-column="9" selection-end-line="33" selection-end-column="21" />
@@ -964,16 +1167,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="323">
-            <caret line="17" selection-start-line="17" selection-end-line="17" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/login.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="570">
@@ -988,6 +1181,78 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/admin/controller/StuManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="347">
+          <caret line="125" column="66" selection-start-line="125" selection-start-column="66" selection-end-line="125" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/admin/service/StuManagerService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="20" column="1" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/admin/dao/StuManagerDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="37" selection-start-line="5" selection-start-column="37" selection-end-line="5" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="322">
+            <caret line="17" selection-start-line="17" selection-end-line="17" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pim.iml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="79" column="9" lean-forward="true" selection-start-line="79" selection-start-column="9" selection-end-line="79" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="89">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/pim/admin/controller/AFLManagerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/spring-mvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="22" selection-start-line="22" selection-end-line="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resources/spring-mybatis.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="22" column="51" lean-forward="true" selection-start-line="22" selection-start-column="51" selection-end-line="22" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
   </component>
   <component name="masterDetails">
     <states>
@@ -998,7 +1263,7 @@
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.33793104" />
+                <option value="0.5149425" />
                 <option value="0.5" />
               </list>
             </option>
@@ -1007,11 +1272,11 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring (stu)|Spring</last-edited>
+          <last-edited>Web (stu)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.33793104" />
+                <option value="0.5149425" />
               </list>
             </option>
           </splitter-proportions>
@@ -1042,11 +1307,11 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>stu</last-edited>
+          <last-edited>pim</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.33793104" />
+                <option value="0.5149425" />
                 <option value="0.6" />
               </list>
             </option>
@@ -1055,11 +1320,11 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: org.mybatis:mybatis-spring:1.2.0</last-edited>
+          <last-edited>Maven: org.slf4j:slf4j-log4j12:1.7.25</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
-                <option value="0.33793104" />
+                <option value="0.5149425" />
               </list>
             </option>
           </splitter-proportions>
