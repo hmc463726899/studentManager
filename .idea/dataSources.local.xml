@@ -2,7 +2,7 @@
 <project version="4">
   <component name="dataSourceStorageLocal">
     <data-source name="stumanager@localhost" uuid="846075a9-94b9-43ed-8ce2-24d1310ea134">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" />
+      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" family="MYSQL" exact-version="0.0" />
       <introspection-schemas>*:stumanager</introspection-schemas>
     </data-source>
   </component>
